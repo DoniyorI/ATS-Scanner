@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Scanner Results</title>
+</head>
+<body>
+    <h1>ATS Scanner Results</h1>
+
+    <h2>Matched Skills</h2>
+    <p>{{ matched_skills }}</p>
+    <h2>UNmatched Skills</h2>
+    <p>{{ unmatched_skills }}</p>
+    <p>Skills Matched: {{ skills_match }} / {{ skills_total }}</p>
+
+    <h2>Matched Degrees</h2>
+    <p>{{ matched_degrees }}</p>
+
+    <h2>UNmatched Degrees</h2>
+    <p>{{ unmatched_degrees }}</p>
+
+    <p>Degrees Matched: {{ degree_match }} / {{ degree_total }}</p>
+
+    <h2>Matched Experience</h2>
+    <p>{{ matched_experience }}</p>
+
+    <h2>UNmatched Experience</h2>
+    <p>{{ unmatched_experience }}</p>
+    <p>Experience Matched: {{ experience_match }} / {{ experience_total }}</p>
+
+    <h2>Overall Match Score</h2>
+    <p>{{ overall_score }}%</p>
+
+    <a href="/">Try Another Job</a>
+</body>
+</html>
