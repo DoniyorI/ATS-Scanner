@@ -1,3 +1,4 @@
-Flask>=3.0.0
-rake-nltk==1.0.4
-nltk==3.6.7
+Flask==3.0.3
+transformers==4.27.0
+torch==2.0.0
+scikit-learn==1.2.2
